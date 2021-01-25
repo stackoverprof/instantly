@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
+
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+  transition: 1s;
+}
+.asbody{
+  transform: none;
+  background-color: white;
+  border-radius: 20px;
+  transition: 1s;
+}
+.judul{
+    font-family: 'Bellota', cursive;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18pt;
+    position: relative;
+    top: 8px;
+    color: #76448e;
+}
+
+.jumbotron{
+    background-color: white;
+    margin:0;
+    padding: 0;
+}
+.p-jumbo{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 24pt;
+    margin: 15px;
+    margin-top: 19px;
+    margin-bottom: 14px;
+}
+.input-box{
+    height: 200px;
+    width: 84%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-image: url('../img/inputcard.jpg');
+    background-size: cover;
+    padding: 0 20px 0 20px;
+}
+.form-link{
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 18px;
+}
+#label-input-link{
+  font-family: 'Montserrat';
+  color: white;
+  padding: 20px 0 10px 0;
+  font-weight: 500;
+}
+#p-andlet{
+  padding: 8px 0 0 0;
+  font-size: 8pt;
+  font-family: 'Montserrat';
+  color: white;
+}
+.btn-putih-bulat{
+  background-color: #e190f6;
+  border-radius: 50px;
+  box-shadow: 0 0 9px 0px #76448e;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #780094;
+  margin: 0 0 0 auto;
+}
+.divbutton{
+  display: flex;
+  align-items:  flex-end;
+}
+.copyright{
+  border: none;
+  height: 100px;
+  width: 50px;
+  border-radius: 12px;
+  position: relative;
+  left: -2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 8px 0 gray;
+}
+.p-worry{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14pt;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.p-learn{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9pt;
+}
+.menus{
+  position: fixed;
+  left:0;
+  top: 20%;
+  z-index: -2;
+}
+.amenu{
+  color: white;
+  padding: 16px 20px;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+}
+.followus{
+  position: fixed;
+  bottom: 0;
+  padding: 20px 20px 40px 42px;
+  color: white;
+  z-index: -2;
+}
+.socmed{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.imgsocmed{
+  margin:0 5px;
+}
+.headercard{
+  background-color: white;
+  width: 288px;
+  height: 50px;
+  box-shadow: 0 0 4px 0  rgb(180,180,180);
+  border-radius: 10px 10px 0 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+.imgcard{
+  background-color: white;
+  width: 288px;
+  box-shadow: 0 0 4px 0 rgb(180,180,180);
+  margin: 0 auto;
+  clip-path: inset(0px -5px 0px -5px);
+}
+.footercard{
+  background-color: white;
+  width: 288px;
+  height: 50px;
+  box-shadow: 0 0 4px 0  rgb(180,180,180);
+  border-radius: 0 0 10px 10px;
+  margin: 0 auto;
+  padding: 12px;
+}
+.profilepic{
+
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 9px 6px 9px 12px;
+}
+.iguname{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
+  margin: 15px 2px;
+  color: rgb(80,80,80);
+}
+.pready{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10pt;
+  color: rgb(80,80,80);
+  text-align: center;
+}
+.btndiv{
+  background-color: #af88fd;
+  height: 50px;
+  width: 240px;
+  margin: 23px auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adownload{
+  color: white;
+  font-family: 'Motserrat',sans-serif;
+  font-weight: 600;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adownload:hover{
+  color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  width:100vw;
+  position:fixed;
+  bottom:0px;
+  transition: 1s;
+}
+footer div {
+  background-color:#4478e3;
+  margin: -5px 0px 0px 0px;
+  padding:0px;
+  color: #fff;
+  text-align:center;
+}
+svg {
+  width:100%;
+}
+.arrow {
+  stroke-width: 1px;
+  stroke:yellow;
+  transform: translateY(-1px);
+}
+.topball {
+  animation: ball 1.5s ease-in-out;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+  animation-delay: 0.3s;
+  cursor:pointer;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count:infinite;
+  fill: #9059fc;
+}
+.drop {
+  fill: transparent;
+  animation: drop 5s ease infinite normal;
+  stroke: #4478e3;
+  stroke-width:0.5;
+  opacity:.6;
+  transform: translateY(80%);
+}
+.drop1 {
+  transform-origin: 20px 3px;
+}
+.drop2 {
+  animation-delay: 3s;
+  animation-duration:3s;
+  transform-origin: 25px 3px;
+}
+.drop3 {
+  animation-delay: -2s;
+  animation-duration:3.4s;
+  transform-origin: 16px 3px;
+}
+.gooeff {
+  	filter: url(#goo);
+}
+#wave2 {
+  animation-duration:5s;
+  animation-direction: reverse;
+  opacity: .6
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity:.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(80%);
+    opacity:.6;
+  }
+  80% {
+    transform: translateY(80%);
+    opacity:.6;
+  }
+  90% {
+    transform: translateY(10%) ;
+    opacity:.6;
+  }
+  100% {
+    transform: translateY(0%) scale(1.5);
+    stroke-width:0.2;
+    opacity:0;
+  }
+}
+@keyframes wave {
+  to {transform: translateX(-100%);}
+}
+@keyframes ball {
+  to {transform: translateY(20%);}
+}
